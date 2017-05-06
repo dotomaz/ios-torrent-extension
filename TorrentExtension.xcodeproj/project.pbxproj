@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		732334131EBDBD3F00E73EF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732334121EBDBD3F00E73EF5 /* AppDelegate.swift */; };
+		732334151EBDBD3F00E73EF5 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732334141EBDBD3F00E73EF5 /* RootViewController.swift */; };
+		732334171EBDBD3F00E73EF5 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732334161EBDBD3F00E73EF5 /* DataViewController.swift */; };
+		732334191EBDBD3F00E73EF5 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732334181EBDBD3F00E73EF5 /* ModelController.swift */; };
+		7323341C1EBDBD3F00E73EF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7323341A1EBDBD3F00E73EF5 /* Main.storyboard */; };
+		7323341E1EBDBD3F00E73EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7323341D1EBDBD3F00E73EF5 /* Assets.xcassets */; };
+		732334211EBDBD3F00E73EF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7323341F1EBDBD3F00E73EF5 /* LaunchScreen.storyboard */; };
+		7323342C1EBDBD3F00E73EF5 /* TorrentExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7323342B1EBDBD3F00E73EF5 /* TorrentExtensionTests.swift */; };
+		732334371EBDBD3F00E73EF5 /* TorrentExtensionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732334361EBDBD3F00E73EF5 /* TorrentExtensionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		732334281EBDBD3F00E73EF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 732334071EBDBD3F00E73EF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7323340E1EBDBD3F00E73EF5;
+			remoteInfo = TorrentExtension;
+		};
+		732334331EBDBD3F00E73EF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 732334071EBDBD3F00E73EF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7323340E1EBDBD3F00E73EF5;
+			remoteInfo = TorrentExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7323340F1EBDBD3F00E73EF5 /* TorrentExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TorrentExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		732334121EBDBD3F00E73EF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		732334141EBDBD3F00E73EF5 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		732334161EBDBD3F00E73EF5 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		732334181EBDBD3F00E73EF5 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		7323341B1EBDBD3F00E73EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7323341D1EBDBD3F00E73EF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		732334201EBDBD3F00E73EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		732334221EBDBD3F00E73EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		732334271EBDBD3F00E73EF5 /* TorrentExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TorrentExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7323342B1EBDBD3F00E73EF5 /* TorrentExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorrentExtensionTests.swift; sourceTree = "<group>"; };
+		7323342D1EBDBD3F00E73EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		732334321EBDBD3F00E73EF5 /* TorrentExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TorrentExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		732334361EBDBD3F00E73EF5 /* TorrentExtensionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorrentExtensionUITests.swift; sourceTree = "<group>"; };
+		732334381EBDBD3F00E73EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7323340C1EBDBD3F00E73EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732334241EBDBD3F00E73EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7323342F1EBDBD3F00E73EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		732334061EBDBD3F00E73EF5 = {
+			isa = PBXGroup;
+			children = (
+				732334111EBDBD3F00E73EF5 /* TorrentExtension */,
+				7323342A1EBDBD3F00E73EF5 /* TorrentExtensionTests */,
+				732334351EBDBD3F00E73EF5 /* TorrentExtensionUITests */,
+				732334101EBDBD3F00E73EF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		732334101EBDBD3F00E73EF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7323340F1EBDBD3F00E73EF5 /* TorrentExtension.app */,
+				732334271EBDBD3F00E73EF5 /* TorrentExtensionTests.xctest */,
+				732334321EBDBD3F00E73EF5 /* TorrentExtensionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		732334111EBDBD3F00E73EF5 /* TorrentExtension */ = {
+			isa = PBXGroup;
+			children = (
+				732334121EBDBD3F00E73EF5 /* AppDelegate.swift */,
+				732334141EBDBD3F00E73EF5 /* RootViewController.swift */,
+				732334161EBDBD3F00E73EF5 /* DataViewController.swift */,
+				732334181EBDBD3F00E73EF5 /* ModelController.swift */,
+				7323341A1EBDBD3F00E73EF5 /* Main.storyboard */,
+				7323341D1EBDBD3F00E73EF5 /* Assets.xcassets */,
+				7323341F1EBDBD3F00E73EF5 /* LaunchScreen.storyboard */,
+				732334221EBDBD3F00E73EF5 /* Info.plist */,
+			);
+			path = TorrentExtension;
+			sourceTree = "<group>";
+		};
+		7323342A1EBDBD3F00E73EF5 /* TorrentExtensionTests */ = {
+			isa = PBXGroup;
+			children = (
+				7323342B1EBDBD3F00E73EF5 /* TorrentExtensionTests.swift */,
+				7323342D1EBDBD3F00E73EF5 /* Info.plist */,
+			);
+			path = TorrentExtensionTests;
+			sourceTree = "<group>";
+		};
+		732334351EBDBD3F00E73EF5 /* TorrentExtensionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				732334361EBDBD3F00E73EF5 /* TorrentExtensionUITests.swift */,
+				732334381EBDBD3F00E73EF5 /* Info.plist */,
+			);
+			path = TorrentExtensionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7323340E1EBDBD3F00E73EF5 /* TorrentExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7323343B1EBDBD3F00E73EF5 /* Build configuration list for PBXNativeTarget "TorrentExtension" */;
+			buildPhases = (
+				7323340B1EBDBD3F00E73EF5 /* Sources */,
+				7323340C1EBDBD3F00E73EF5 /* Frameworks */,
+				7323340D1EBDBD3F00E73EF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TorrentExtension;
+			productName = TorrentExtension;
+			productReference = 7323340F1EBDBD3F00E73EF5 /* TorrentExtension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		732334261EBDBD3F00E73EF5 /* TorrentExtensionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7323343E1EBDBD3F00E73EF5 /* Build configuration list for PBXNativeTarget "TorrentExtensionTests" */;
+			buildPhases = (
+				732334231EBDBD3F00E73EF5 /* Sources */,
+				732334241EBDBD3F00E73EF5 /* Frameworks */,
+				732334251EBDBD3F00E73EF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				732334291EBDBD3F00E73EF5 /* PBXTargetDependency */,
+			);
+			name = TorrentExtensionTests;
+			productName = TorrentExtensionTests;
+			productReference = 732334271EBDBD3F00E73EF5 /* TorrentExtensionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		732334311EBDBD3F00E73EF5 /* TorrentExtensionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 732334411EBDBD3F00E73EF5 /* Build configuration list for PBXNativeTarget "TorrentExtensionUITests" */;
+			buildPhases = (
+				7323342E1EBDBD3F00E73EF5 /* Sources */,
+				7323342F1EBDBD3F00E73EF5 /* Frameworks */,
+				732334301EBDBD3F00E73EF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				732334341EBDBD3F00E73EF5 /* PBXTargetDependency */,
+			);
+			name = TorrentExtensionUITests;
+			productName = TorrentExtensionUITests;
+			productReference = 732334321EBDBD3F00E73EF5 /* TorrentExtensionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		732334071EBDBD3F00E73EF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Tomaz Dobrisek";
+				TargetAttributes = {
+					7323340E1EBDBD3F00E73EF5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3DSSZSG7J6;
+						ProvisioningStyle = Automatic;
+					};
+					732334261EBDBD3F00E73EF5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3DSSZSG7J6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7323340E1EBDBD3F00E73EF5;
+					};
+					732334311EBDBD3F00E73EF5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3DSSZSG7J6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7323340E1EBDBD3F00E73EF5;
+					};
+				};
+			};
+			buildConfigurationList = 7323340A1EBDBD3F00E73EF5 /* Build configuration list for PBXProject "TorrentExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 732334061EBDBD3F00E73EF5;
+			productRefGroup = 732334101EBDBD3F00E73EF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7323340E1EBDBD3F00E73EF5 /* TorrentExtension */,
+				732334261EBDBD3F00E73EF5 /* TorrentExtensionTests */,
+				732334311EBDBD3F00E73EF5 /* TorrentExtensionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7323340D1EBDBD3F00E73EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732334211EBDBD3F00E73EF5 /* LaunchScreen.storyboard in Resources */,
+				7323341E1EBDBD3F00E73EF5 /* Assets.xcassets in Resources */,
+				7323341C1EBDBD3F00E73EF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732334251EBDBD3F00E73EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732334301EBDBD3F00E73EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7323340B1EBDBD3F00E73EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732334151EBDBD3F00E73EF5 /* RootViewController.swift in Sources */,
+				732334191EBDBD3F00E73EF5 /* ModelController.swift in Sources */,
+				732334171EBDBD3F00E73EF5 /* DataViewController.swift in Sources */,
+				732334131EBDBD3F00E73EF5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732334231EBDBD3F00E73EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7323342C1EBDBD3F00E73EF5 /* TorrentExtensionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7323342E1EBDBD3F00E73EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732334371EBDBD3F00E73EF5 /* TorrentExtensionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		732334291EBDBD3F00E73EF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7323340E1EBDBD3F00E73EF5 /* TorrentExtension */;
+			targetProxy = 732334281EBDBD3F00E73EF5 /* PBXContainerItemProxy */;
+		};
+		732334341EBDBD3F00E73EF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7323340E1EBDBD3F00E73EF5 /* TorrentExtension */;
+			targetProxy = 732334331EBDBD3F00E73EF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7323341A1EBDBD3F00E73EF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7323341B1EBDBD3F00E73EF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7323341F1EBDBD3F00E73EF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				732334201EBDBD3F00E73EF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		732334391EBDBD3F00E73EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7323343A1EBDBD3F00E73EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7323343C1EBDBD3F00E73EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3DSSZSG7J6;
+				INFOPLIST_FILE = TorrentExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = si.dobrisek.TorrentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7323343D1EBDBD3F00E73EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3DSSZSG7J6;
+				INFOPLIST_FILE = TorrentExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = si.dobrisek.TorrentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7323343F1EBDBD3F00E73EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3DSSZSG7J6;
+				INFOPLIST_FILE = TorrentExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = si.dobrisek.TorrentExtensionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TorrentExtension.app/TorrentExtension";
+			};
+			name = Debug;
+		};
+		732334401EBDBD3F00E73EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3DSSZSG7J6;
+				INFOPLIST_FILE = TorrentExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = si.dobrisek.TorrentExtensionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TorrentExtension.app/TorrentExtension";
+			};
+			name = Release;
+		};
+		732334421EBDBD3F00E73EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3DSSZSG7J6;
+				INFOPLIST_FILE = TorrentExtensionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = si.dobrisek.TorrentExtensionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TorrentExtension;
+			};
+			name = Debug;
+		};
+		732334431EBDBD3F00E73EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3DSSZSG7J6;
+				INFOPLIST_FILE = TorrentExtensionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = si.dobrisek.TorrentExtensionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TorrentExtension;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7323340A1EBDBD3F00E73EF5 /* Build configuration list for PBXProject "TorrentExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732334391EBDBD3F00E73EF5 /* Debug */,
+				7323343A1EBDBD3F00E73EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7323343B1EBDBD3F00E73EF5 /* Build configuration list for PBXNativeTarget "TorrentExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7323343C1EBDBD3F00E73EF5 /* Debug */,
+				7323343D1EBDBD3F00E73EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7323343E1EBDBD3F00E73EF5 /* Build configuration list for PBXNativeTarget "TorrentExtensionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7323343F1EBDBD3F00E73EF5 /* Debug */,
+				732334401EBDBD3F00E73EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		732334411EBDBD3F00E73EF5 /* Build configuration list for PBXNativeTarget "TorrentExtensionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732334421EBDBD3F00E73EF5 /* Debug */,
+				732334431EBDBD3F00E73EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 732334071EBDBD3F00E73EF5 /* Project object */;
+}
